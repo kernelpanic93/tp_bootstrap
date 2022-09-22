@@ -90,6 +90,10 @@
 }
 
 .text-area-custom {
-    padding: 10px 25%;
-    justify-content: center;
+    padding: 10px 25.3%;
+}
+
+.btn-success {
+    margin-bottom: 20px;
+    width: 50%;
 }
