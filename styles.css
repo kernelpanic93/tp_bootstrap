@@ -1,0 +1,90 @@
+
+.navbar-custom{
+    padding: 0 7em;
+    background-color: #353a40;
+}
+
+.img-custom {
+    max-width:30%;
+    height:auto;
+}
+.img-custom:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.nav-items{
+    font-size: 1.4em;
+}
+.nav-item-ticket{
+    color:#3eb057;
+}
+
+.nav-item-ticket:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.img-main{
+    position: relative;
+    filter: brightness(40%);
+    
+}
+
+
+.texto-bt {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+    text-align: right;
+    font-size: 1.4em;
+    width: 40%;
+}
+
+.botones {
+    display: inline-flex;
+}
+
+.btn-orador-custom {
+    margin-right: 10px;
+}
+
+.btn-compra-custom {
+    background-color: green;
+}
+.texto h1 {
+    font-weight: bold;
+}
+
+
+.texto-oradores{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.oradores {
+    font-size: 2.5em;
+    font-weight:700;
+}
+
+.card-custom {
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.btns-custom {
+    margin-bottom: 10px;
+}
+
+.card-bsas {
+    background-color: #353a40;
+    padding-left: 10px;
+}
+
+.card-title {
+    font-size: 2.5em;
+    font-weight: 500;
+}
