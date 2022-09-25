@@ -1,20 +1,42 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .navbar-custom{
+    display: flex;
+    position: relative;
+    align-items: center;
     padding: 0 7em;
     background-color: #353a40;
 }
 
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-toggler {
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
 .img-custom {
     max-width:30%;
     height:auto;
 }
+
 .img-custom:hover {
     transform: scale(1.2);
     transition: 1s;
 }
+
 .nav-items{
     font-size: 1.4em;
 }
+
 .nav-item-ticket{
     color:#3eb057;
 }
@@ -24,23 +46,32 @@
     border-radius: 10px;
 }
 
-.img-main{
-    position: relative;
-    filter: brightness(40%);
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(/imagenes_integrador_front/ba1.jpg);
+    height: 110vh;
+    background-repeat: no-repeat;
     
 }
 
-
 .texto-bt {
     position: absolute;
-    top: 45%;
-    left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    text-align: end;
     color: white;
-    text-align: right;
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 40%;
+    margin-top: 10%;
+    margin-left: 50%;
 }
 
+.texto-bt h1{
+    font-weight: bold;
+}
 .botones {
     display: inline-flex;
 }
@@ -68,8 +99,9 @@
 }
 
 .card-custom {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 15%;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-gap: 1rem;
@@ -80,6 +112,7 @@
 }
 
 .card-bsas {
+    
     background-color: #353a40;
     padding-left: 10px;
 }
@@ -96,4 +129,20 @@
 .btn-success {
     margin-bottom: 20px;
     width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg,#1d3744, #1d5271);
+
+}
+
+footer a {
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
 }
