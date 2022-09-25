@@ -50,7 +50,7 @@ body {
 .contenedor {
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(/imagenes_integrador_front/ba1.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url("imagenes_integrador_front/ba1.jpg");
     height: 110vh;
     background-repeat: no-repeat;
     
